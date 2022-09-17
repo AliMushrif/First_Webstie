@@ -523,12 +523,31 @@ body {
 .contact .info .social {
   display: flex;
   justify-content: center;
-  font-size: 16px;
+  font-size: 20px;
 }
 
 .contact .info .social i {
   margin-left: 15px;
   color: var(--theme-color);
+  transition: 0.3s;
+}
+
+.contact .info .social a .fa-youtube:hover {
+  color: rgb(248, 77, 77);
+  transform: scale(1.2);
+  transition: 0.3s;
+}
+
+.contact .info .social a .fa-facebook-f:hover {
+  color: rgb(77, 145, 248);
+  transform: scale(1.2);
+  transition: 0.3s;
+}
+
+.contact .info .social a .fa-twitter:hover {
+  color: rgb(66, 241, 247);
+  transform: scale(1.2);
+  transition: 0.3s;
 }
 
 /* End Contact */
